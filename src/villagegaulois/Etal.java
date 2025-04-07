@@ -1,11 +1,10 @@
 package villagegaulois;
 
 import personnages.Gaulois;
-import produit.Produit;
 
-public class Etal<T extends Produit> {
+public class Etal {
 	private Gaulois vendeur;
-	private T produit;
+	private String produit;
 	private int quantiteDebutMarche;
 	private int quantite;
 	private boolean etalOccupe = false;
@@ -20,10 +19,6 @@ public class Etal<T extends Produit> {
 
 	public int getQuantite() {
 		return quantite;
-	}
-	
-	public T getProduit() {
-		return produit;
 	}
 
 }
